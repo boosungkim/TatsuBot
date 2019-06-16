@@ -7,7 +7,7 @@ def authenticate():
     print("Authenticating...")
     reddit = praw.Reddit(
                          'TatsuBot',
-                         user_agent="Tatsumaki comment responder v1.1")
+                         user_agent="Tatsumaki comment responder v1.2")
     print("Authenticated as {}!".format(reddit.user.me()))
     return reddit
 
@@ -71,7 +71,7 @@ def run_bot(reddit, subreddit_name):
             if "who created you" in lowercase_comment and comment.id not in cache:
                 parent = comment.parent()
                 if parent.author == reddit.user.me():
-                    comment.reply("[I created myself](link)")
+                    comment.reply("[I created myself](https://github.com/boosungkim/TatsuBot)")
                     cache.append(comment.id)
 # Checking for "You are doing that too much" error
         except APIException as err:
