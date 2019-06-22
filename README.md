@@ -3,6 +3,7 @@
 TatsuBot is a basic Reddit comment responder based on the character "Tatsumaki" from the TV show "One Punch Man." 
 
 Reddit Bot: https://www.reddit.com/user/Not_a_brat_Tatsumaki/
+
 One Punch Man subreddit: https://www.reddit.com/r/OnePunchMan/
 
 ## Getting Started
