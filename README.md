@@ -6,6 +6,8 @@ Reddit Bot: https://www.reddit.com/user/Not_a_brat_Tatsumaki/
 
 One Punch Man subreddit: https://www.reddit.com/r/OnePunchMan/
 
+(Current playground) Meme Tuesday subreddit: https://www.reddit.com/r/MemeTuesday/
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
