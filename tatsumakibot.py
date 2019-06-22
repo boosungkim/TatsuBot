@@ -7,7 +7,7 @@ def authenticate():
     print("Authenticating...")
     reddit = praw.Reddit(
                          'TatsuBot',
-                         user_agent="Tatsumaki comment responder v1.2.1")
+                         user_agent="Tatsumaki comment responder v1.2.2")
     print("Authenticated as {}!".format(reddit.user.me()))
     return reddit
 
@@ -80,7 +80,7 @@ def run_bot(reddit, subreddit_name):
 def main():
     reddit = authenticate()
     while True:
-        run_bot(reddit, "OnePunchMan")
+        run_bot(reddit, "MemeTuesday")
 #Sleep for 10 seconds
         print("Sleeping for 10 seconds")
         time.sleep(10)
